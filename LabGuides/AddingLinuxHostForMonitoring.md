@@ -114,7 +114,9 @@ define command{
 
 (vii) Restart Nagios using command `systemctl restart nagios`
 
-That’s it. Now go to Nagios Monitoring Web interface at “http://Your-server-IP-address/nagios” or “http://FQDN/nagios” and Provide the username and password. Check that the Remote Linux Host was added and is being monitored.
+That’s it. Now go to Nagios Monitoring Web interface at “http://Your-server-IP-address/nagios” or “http://FQDN/nagios” and Provide the username and password. Check that the Remote Linux Host was added and is being monitored.\
+
+NOTE: For Object definitions details, please visit URL https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/3/en/objectdefinitions.html#service
 
 
 
